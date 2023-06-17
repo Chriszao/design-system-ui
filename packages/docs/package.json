@@ -11,6 +11,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@design-system-ui/react": "*",
+    "@design-system-ui/tokens": "*",
+    "@design-system-ui/eslint-config": "*",
+    "@design-system-ui/ts-config": "*",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
