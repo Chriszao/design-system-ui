@@ -1,5 +1,5 @@
 {
-  "name": "@design-system-ui/tokens",
+  "name": "@design-system-ui/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -10,9 +10,10 @@
     "dev": "npm run build -- --watch"
   },
   "keywords": [],
-  "author": "Christofer Assis <chris.f.assis18@gmail.com>",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@design-system-ui/tokens": "*",
     "tsup": "7.0.0",
     "typescript": "5.1.3"
   }
