@@ -6,7 +6,7 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
     "dev": "npm run build -- --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
@@ -17,7 +17,13 @@
     "@design-system-ui/eslint-config": "*",
     "@design-system-ui/tokens": "*",
     "@design-system-ui/ts-config": "*",
+    "@types/react": "18.2.12",
+    "@types/react-dom": "18.2.5",
+    "react": "18.2.0",
     "tsup": "7.0.0",
     "typescript": "5.1.3"
+  },
+  "dependencies": {
+    "@stitches/react": "1.2.8"
   }
 }
