@@ -11,8 +11,9 @@
   },
   "keywords": [],
   "author": "Christofer Assis <chris.f.assis18@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
+    "@design-system-ui/ts-config": "*",
     "tsup": "7.0.0",
     "typescript": "5.1.3"
   }

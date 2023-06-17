@@ -11,9 +11,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@design-system-ui/tokens": "*",
+    "@design-system-ui/ts-config": "*",
     "tsup": "7.0.0",
     "typescript": "5.1.3"
   }
