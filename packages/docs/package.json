@@ -11,9 +11,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@design-system-ui/eslint-config": "*",
     "@design-system-ui/react": "*",
     "@design-system-ui/tokens": "*",
-    "@design-system-ui/eslint-config": "*",
     "@design-system-ui/ts-config": "*",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -23,12 +23,15 @@
     "@storybook/addon-interactions": "7.0.22",
     "@storybook/addon-links": "7.0.22",
     "@storybook/blocks": "7.0.22",
+    "@storybook/manager-api": "7.0.22",
     "@storybook/react": "7.0.22",
     "@storybook/react-vite": "7.0.22",
     "@storybook/testing-library": "0.0.14-next.2",
+    "@storybook/theming": "7.0.22",
     "@vitejs/plugin-react": "4.0.0",
     "prop-types": "15.8.1",
     "storybook": "7.0.22",
+    "storybook-dark-mode": "3.0.0",
     "vite": "4.3.9"
   }
 }
