@@ -33,3 +33,5 @@ export const Text = styled('p', {
 		size: 'md',
 	},
 });
+
+Text.displayName = 'Text';
