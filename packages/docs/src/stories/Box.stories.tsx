@@ -5,11 +5,7 @@ export default {
 	title: 'Box',
 	component: Box,
 	args: {
-		children: (
-			<>
-				<Text>Testing Box Element</Text>
-			</>
-		),
+		children: <Text>Testing Box Element</Text>,
 	},
 } as Meta<BoxProps>;
 
