@@ -85,5 +85,6 @@ module.exports = {
 		'react/prop-types': 'off',
 		'import/no-extraneous-dependencies': 'off',
 		'@typescript-eslint/explicit-function-return-type': 'off',
+		'@typescript-eslint/restrict-template-expressions': 'off',
 	},
 };
