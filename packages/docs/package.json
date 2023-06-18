@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "storybook build"
+    "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "keywords": [],
   "author": "",
@@ -15,9 +16,9 @@
     "@design-system-ui/react": "*",
     "@design-system-ui/tokens": "*",
     "@design-system-ui/ts-config": "*",
-    "@storybook/addon-a11y": "^7.0.22",
-    "phosphor-react": "^1.4.1",
-    "polished": "^4.2.2",
+    "@storybook/addon-a11y": "7.0.22",
+    "phosphor-react": "1.4.1",
+    "polished": "4.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -29,6 +30,7 @@
     "@storybook/manager-api": "7.0.22",
     "@storybook/react": "7.0.22",
     "@storybook/react-vite": "7.0.22",
+    "@storybook/storybook-deployer": "2.8.16",
     "@storybook/testing-library": "0.0.14-next.2",
     "@storybook/theming": "7.0.22",
     "@vitejs/plugin-react": "4.0.0",
