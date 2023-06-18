@@ -5,6 +5,11 @@ export default {
 	title: 'Form/Button',
 	component: Button,
 	args: { children: 'Send' },
+	argTypes: {
+		onClick: {
+			action: 'click',
+		},
+	},
 } as Meta<ButtonProps>;
 import { ArrowRight } from 'phosphor-react';
 
