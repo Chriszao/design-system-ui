@@ -15,6 +15,7 @@
     "@design-system-ui/react": "*",
     "@design-system-ui/tokens": "*",
     "@design-system-ui/ts-config": "*",
+    "polished": "^4.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
