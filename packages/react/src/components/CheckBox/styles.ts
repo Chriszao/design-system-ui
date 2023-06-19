@@ -14,15 +14,14 @@ export const CheckBoxContainer = styled(CheckBox.Root, {
 	display: 'flex',
 	alignItems: 'center',
 	justifyContent: 'center',
-
 	border: '2px solid $gray900',
-
-	'&:focus': {
-		border: '2px solid $green300',
-	},
 
 	'&[data-state="checked"]': {
 		backgroundColor: '$green300',
+	},
+
+	'&:focus, &[data-state="checked"]': {
+		border: '2px solid $green300',
 	},
 });
 
